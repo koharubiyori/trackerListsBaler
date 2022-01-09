@@ -4,12 +4,10 @@
   "main": "src/main.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx pm2 start ./src/main.js",
-    "stop": "npx pm2 delete ./src/main.js"
+    "start": "node ./src/main"
   },
   "dependencies": {
     "axios": "^0.24.0",
-    "pm2": "^5.1.2",
     "tunnel": "^0.0.6",
     "yaml": "^1.10.2"
   }

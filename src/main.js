@@ -19,4 +19,5 @@ function main() {
 }
 
 main()
-
+console.log('服务已启动！')
+console.log(`http://localhost:${config.serverPort}`)

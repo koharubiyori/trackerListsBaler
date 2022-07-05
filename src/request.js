@@ -36,3 +36,4 @@ exports.getBaledTrackerLists = () => {
     .then(res => res.flat())
     .then(allTrackers => Array.from(new Set(allTrackers)))
 }
+
